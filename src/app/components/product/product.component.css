@@ -1,0 +1,68 @@
+img {
+  border-radius: 10%;
+
+
+}
+.img-thumb:hover{
+    cursor: pointer;
+    opacity: 0.5;
+
+
+}
+
+.selected{
+  opacity: 0.5;
+}
+
+.company {
+  color:hsl(26, 100%, 55%);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.cart {
+  background-color: hsl(26, 100%, 55%);
+  color: white;
+  font-size: 1.2rem;
+}
+
+.tachado {
+  text-decoration: line-through;
+  color: hsl(219, 9%, 45%);
+  font-size: 1rem;
+}
+
+.off {
+  color: hsl(26, 100%, 55%);
+  font-size: 1rem;
+  background-color: hsl(25, 100%, 94%);
+  border-radius: 10%;
+  font-weight: bold;
+}
+
+.actual-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.btn-q{
+  font-size: 1.5rem;
+  background-color:  hsl(223, 64%, 98%);
+  color:hsl(26, 100%, 55%);
+  font-weight: bold;
+
+}
+
+.btn-num {
+  color: #000;
+  font-weight: bold;
+  background-color:  hsl(223, 64%, 98%)
+
+}
+
