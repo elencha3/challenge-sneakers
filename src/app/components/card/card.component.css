@@ -1,0 +1,19 @@
+.cart {
+  background-color: hsl(26, 100%, 55%);
+  color: white;
+  font-size: 1rem;
+}
+
+p {
+  margin:0;
+}
+
+.resumen {
+  font-size: 0.9rem;
+
+}
+
+.totalPrice {
+  font-weight: bold;
+  color: black;
+}

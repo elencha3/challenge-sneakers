@@ -1,3 +1,6 @@
+<app-card [amount]='amount' [totalPrice]="total" ></app-card>
+
+
 <div class="container m-5">
   <div class="row">
     <div class="col-sm">
@@ -12,7 +15,6 @@
             <div selected>
               <img class="img-fluid img-thumb" [src]="image" (click)="changePicture(i)" alt="" />
             </div>
-
           </div>
           <!-- <div class="p-2">
             <img class="img-fluid" src="../../../assets/images/image-product-2-thumbnail.jpg" alt="" />
@@ -56,7 +58,7 @@
 
           </div>
           <div class="btn-group" role="group" >
-            <button type="button" class="btn  cart">
+            <button type="button" class="btn cart" (click)="addToCart(amount)">
               <img src="../../../assets/images/icon-cart.svg" alt="">
               Add to cart</button>
           </div>
